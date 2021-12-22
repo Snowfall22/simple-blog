@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+
+  <div class="welcome">
+    <h3 class="welcome-text"><b>Welcome to</b></h3>
+    <h1 class="logo">An Engineer's Journey</h1>
+  </div>
+
+<br/>
+
+
+  <div class="blogPost">
+    <h3 class="intro">Introduction</h3>
+    <p>Hello Everyone! I am a 1st year Engineering student at National Institute of Technology, Tiruchirappalli pursuing Btech in Instrumentation and Control Engineering. This Blog was created to document my Engineering journey. I will try my best to post all the major events of my college life. </p>
+  </div>
+
+  <br/>
+
+  <h4  class="intro"> Posts... </h4>
+
+  <br/>
+
+<div class="row">
+  <%  for(let i=0; i<list.length; i++){ %>
+
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> <%=list[i].title%> </h5>
+              <p class="card-text"> <%=list[i].ParaA.slice(0,300)%> ...</p>
+              <a href="/<%=list[i]._id%>" class="card-link"><button type="button" class="btn btn-secondary btn-sm">Read More</button></a>
+
+            </div>
+          </div>
+      </div>
+  <%  } %>
+</div>
+
+
+<%- include('partials/footer') %>

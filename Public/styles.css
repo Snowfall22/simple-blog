@@ -1,0 +1,103 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.welcome{
+  text-align: center;
+  padding-top: 20px;
+}
+.welcome-text{
+  font-family: 'Playfair Display', serif;
+}
+.logo{
+  font-family: 'Corinthia', cursive;
+}
+
+/* header */
+.navbar{
+    background-color: #f7dad9 !important;
+}
+.navbar-brand{
+  font-family: 'Corinthia', cursive;
+  font-size: 2rem !important;
+}
+.nav-item{
+  padding-left: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-right: 20px;
+}
+.nav-item :hover{
+  text-decoration: underline !important;
+}
+
+/* contact */
+.contact{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* project */
+.projects{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+.compose-button{
+  margin-top: 20px;
+}
+
+
+/* compose */
+.form-group{
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+.content{
+  padding-top: 20px;
+}
+.intro{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.blogPost{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.row{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card{
+  margin-top: 15px;
+  background: rgb(245,243,243);
+  background: linear-gradient(129deg, rgba(245,243,243,1) 96%, rgba(247,218,217,1) 100%);
+}
+
+.card-title{
+  font-family: 'Playfair Display', serif;
+}
+/* blog */
+.blog{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 30px;
+  border-style: outset;
+}
+.postHead{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.postPara{
+  padding-top: 20px;
+  padding-left: 10px;
+}

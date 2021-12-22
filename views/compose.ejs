@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<form action="/compose" method="post">
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" name="title" placeholder="Enter Title">
+    <label class="content">Paragraph 1</label>
+    <textarea class="form-control" name="A" placeholder="Enter Content" rows="3"></textarea>
+    <label class="content">Paragraph 2</label>
+    <textarea class="form-control" name="B" placeholder="Enter Content" rows="3"></textarea>
+    <label class="content">Paragraph 3</label>
+    <textarea class="form-control" name="C" placeholder="Enter Content" rows="3"></textarea>
+    <button type="submit" class="btn btn-dark compose-button">Post!</button>
+  </div>
+</form>
+
+<%- include('partials/footer') %>
